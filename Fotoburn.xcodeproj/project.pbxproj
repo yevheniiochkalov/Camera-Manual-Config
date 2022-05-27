@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849078CF2687302400DEC403 /* UtilityFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849078CE2687302400DEC403 /* UtilityFunc.swift */; };
+		8498BBE1268151E800E3479D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498BBE0268151E800E3479D /* AppDelegate.swift */; };
+		8498BBE3268151E800E3479D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498BBE2268151E800E3479D /* SceneDelegate.swift */; };
+		8498BBE8268151E800E3479D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBE6268151E800E3479D /* Main.storyboard */; };
+		8498BBEA268151E900E3479D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBE9268151E900E3479D /* Assets.xcassets */; };
+		8498BBED268151E900E3479D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBEB268151E900E3479D /* LaunchScreen.storyboard */; };
+		8498BBFF268152BC00E3479D /* Date Stamp Alt Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBF7268152BC00E3479D /* Date Stamp Alt Bold Italic.otf */; };
+		8498BC00268152BC00E3479D /* Date Stamp Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBF8268152BC00E3479D /* Date Stamp Alt Bold.otf */; };
+		8498BC01268152BC00E3479D /* Date Stamp Alt Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBF9268152BC00E3479D /* Date Stamp Alt Italic.otf */; };
+		8498BC02268152BC00E3479D /* Date Stamp Alt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBFA268152BC00E3479D /* Date Stamp Alt.otf */; };
+		8498BC03268152BC00E3479D /* Date Stamp Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBFB268152BC00E3479D /* Date Stamp Bold Italic.otf */; };
+		8498BC04268152BC00E3479D /* Date Stamp Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBFC268152BC00E3479D /* Date Stamp Bold.otf */; };
+		8498BC05268152BC00E3479D /* Date Stamp Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBFD268152BC00E3479D /* Date Stamp Italic.otf */; };
+		8498BC06268152BC00E3479D /* Date Stamp.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8498BBFE268152BC00E3479D /* Date Stamp.otf */; };
+		8498BC0A2681534200E3479D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498BC092681534200E3479D /* CameraViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849078CE2687302400DEC403 /* UtilityFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityFunc.swift; sourceTree = "<group>"; };
+		849078D1268761C700DEC403 /* AvenirNext-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-MediumItalic.ttf"; sourceTree = "<group>"; };
+		849078D2268761C700DEC403 /* AvenirNext-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-Medium.ttf"; sourceTree = "<group>"; };
+		849078D3268761C800DEC403 /* AvenirNext-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-Bold.ttf"; sourceTree = "<group>"; };
+		849078D4268761C800DEC403 /* AvenirNext-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-DemiBold.ttf"; sourceTree = "<group>"; };
+		849078D5268761C900DEC403 /* AvenirNext-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-Regular.ttf"; sourceTree = "<group>"; };
+		8498BBDD268151E800E3479D /* Fotoburn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fotoburn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8498BBE0268151E800E3479D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8498BBE2268151E800E3479D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8498BBE7268151E800E3479D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8498BBE9268151E900E3479D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8498BBEC268151E900E3479D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8498BBEE268151E900E3479D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8498BBF7268152BC00E3479D /* Date Stamp Alt Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp Alt Bold Italic.otf"; sourceTree = "<group>"; };
+		8498BBF8268152BC00E3479D /* Date Stamp Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp Alt Bold.otf"; sourceTree = "<group>"; };
+		8498BBF9268152BC00E3479D /* Date Stamp Alt Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp Alt Italic.otf"; sourceTree = "<group>"; };
+		8498BBFA268152BC00E3479D /* Date Stamp Alt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp Alt.otf"; sourceTree = "<group>"; };
+		8498BBFB268152BC00E3479D /* Date Stamp Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp Bold Italic.otf"; sourceTree = "<group>"; };
+		8498BBFC268152BC00E3479D /* Date Stamp Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp Bold.otf"; sourceTree = "<group>"; };
+		8498BBFD268152BC00E3479D /* Date Stamp Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp Italic.otf"; sourceTree = "<group>"; };
+		8498BBFE268152BC00E3479D /* Date Stamp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Date Stamp.otf"; sourceTree = "<group>"; };
+		8498BC092681534200E3479D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8498BBDA268151E800E3479D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849078CD2687300D00DEC403 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				849078CE2687302400DEC403 /* UtilityFunc.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8498BBD4268151E800E3479D = {
+			isa = PBXGroup;
+			children = (
+				8498BBDF268151E800E3479D /* Fotoburn */,
+				8498BBDE268151E800E3479D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8498BBDE268151E800E3479D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8498BBDD268151E800E3479D /* Fotoburn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8498BBDF268151E800E3479D /* Fotoburn */ = {
+			isa = PBXGroup;
+			children = (
+				8498BBE0268151E800E3479D /* AppDelegate.swift */,
+				8498BBE2268151E800E3479D /* SceneDelegate.swift */,
+				8498BC092681534200E3479D /* CameraViewController.swift */,
+				8498BBF6268152BC00E3479D /* Fonts */,
+				849078CD2687300D00DEC403 /* Utils */,
+				8498BBE6268151E800E3479D /* Main.storyboard */,
+				8498BBE9268151E900E3479D /* Assets.xcassets */,
+				8498BBEB268151E900E3479D /* LaunchScreen.storyboard */,
+				8498BBEE268151E900E3479D /* Info.plist */,
+			);
+			path = Fotoburn;
+			sourceTree = "<group>";
+		};
+		8498BBF6268152BC00E3479D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8498BBF7268152BC00E3479D /* Date Stamp Alt Bold Italic.otf */,
+				8498BBF8268152BC00E3479D /* Date Stamp Alt Bold.otf */,
+				8498BBF9268152BC00E3479D /* Date Stamp Alt Italic.otf */,
+				8498BBFA268152BC00E3479D /* Date Stamp Alt.otf */,
+				8498BBFB268152BC00E3479D /* Date Stamp Bold Italic.otf */,
+				8498BBFC268152BC00E3479D /* Date Stamp Bold.otf */,
+				8498BBFD268152BC00E3479D /* Date Stamp Italic.otf */,
+				8498BBFE268152BC00E3479D /* Date Stamp.otf */,
+				849078D3268761C800DEC403 /* AvenirNext-Bold.ttf */,
+				849078D4268761C800DEC403 /* AvenirNext-DemiBold.ttf */,
+				849078D2268761C700DEC403 /* AvenirNext-Medium.ttf */,
+				849078D1268761C700DEC403 /* AvenirNext-MediumItalic.ttf */,
+				849078D5268761C900DEC403 /* AvenirNext-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8498BBDC268151E800E3479D /* Fotoburn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8498BBF1268151E900E3479D /* Build configuration list for PBXNativeTarget "Fotoburn" */;
+			buildPhases = (
+				8498BBD9268151E800E3479D /* Sources */,
+				8498BBDA268151E800E3479D /* Frameworks */,
+				8498BBDB268151E800E3479D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fotoburn;
+			productName = Fotoburn;
+			productReference = 8498BBDD268151E800E3479D /* Fotoburn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8498BBD5268151E800E3479D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8498BBDC268151E800E3479D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8498BBD8268151E800E3479D /* Build configuration list for PBXProject "Fotoburn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8498BBD4268151E800E3479D;
+			productRefGroup = 8498BBDE268151E800E3479D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8498BBDC268151E800E3479D /* Fotoburn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8498BBDB268151E800E3479D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8498BC01268152BC00E3479D /* Date Stamp Alt Italic.otf in Resources */,
+				8498BC05268152BC00E3479D /* Date Stamp Italic.otf in Resources */,
+				8498BBFF268152BC00E3479D /* Date Stamp Alt Bold Italic.otf in Resources */,
+				8498BC00268152BC00E3479D /* Date Stamp Alt Bold.otf in Resources */,
+				8498BC06268152BC00E3479D /* Date Stamp.otf in Resources */,
+				8498BC03268152BC00E3479D /* Date Stamp Bold Italic.otf in Resources */,
+				8498BBED268151E900E3479D /* LaunchScreen.storyboard in Resources */,
+				8498BBEA268151E900E3479D /* Assets.xcassets in Resources */,
+				8498BBE8268151E800E3479D /* Main.storyboard in Resources */,
+				8498BC02268152BC00E3479D /* Date Stamp Alt.otf in Resources */,
+				8498BC04268152BC00E3479D /* Date Stamp Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8498BBD9268151E800E3479D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849078CF2687302400DEC403 /* UtilityFunc.swift in Sources */,
+				8498BBE1268151E800E3479D /* AppDelegate.swift in Sources */,
+				8498BBE3268151E800E3479D /* SceneDelegate.swift in Sources */,
+				8498BC0A2681534200E3479D /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8498BBE6268151E800E3479D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8498BBE7268151E800E3479D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8498BBEB268151E900E3479D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8498BBEC268151E900E3479D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8498BBEF268151E900E3479D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8498BBF0268151E900E3479D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8498BBF2268151E900E3479D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM66M6GQ9T;
+				INFOPLIST_FILE = Fotoburn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boris.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8498BBF3268151E900E3479D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BM66M6GQ9T;
+				INFOPLIST_FILE = Fotoburn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boris.camera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8498BBD8268151E800E3479D /* Build configuration list for PBXProject "Fotoburn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8498BBEF268151E900E3479D /* Debug */,
+				8498BBF0268151E900E3479D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8498BBF1268151E900E3479D /* Build configuration list for PBXNativeTarget "Fotoburn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8498BBF2268151E900E3479D /* Debug */,
+				8498BBF3268151E900E3479D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8498BBD5268151E800E3479D /* Project object */;
+}
